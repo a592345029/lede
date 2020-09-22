@@ -125,7 +125,7 @@ jobs:
           path: ./artifact/package/
 
       - name: Deliver firmware
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v
         with:
           name: OpenWrt_firmware
           path: ./bin/targets/
